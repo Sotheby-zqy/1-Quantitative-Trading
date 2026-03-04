@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 深市股票量化交易系统
 该项目未为**算法交易课程**实践项目，基于Python+Tushare Pro实现的**深市股票量化交易分析系统**，支持股票历史数据自动化抓取、多维度技术指标计算、量价关系可视化分析，并提供配套的选股/择时策略参考，为量化投资提供数据支撑与决策依据。
 
@@ -38,8 +39,8 @@
 - 处理缺失值、异常值，保证数据完整性；
 - 标准化字段命名，提升代码可读性。
 <div align="center">
-  <img src="images/result-images/股票列表.png" width="40%" alt="股票列表"/>
-  <img src="images/result-images/股票日线数据.png" width="60%" alt="股票日线数据"/>
+  <img src="result-images/result-images/股票列表.png" width="40%" alt="股票列表"/>
+  <img src="result-images/result-images/股票日线数据.png" width="60%" alt="股票日线数据"/>
 </div>
 
 ### 2. 核心技术指标计算
@@ -79,11 +80,11 @@ $$Volatility_{20} = \sigma(r_t, window=20)$$
 
 <!-- 插入可视化图表合集，一行3图布局 -->
 <div align="center">
-    <img src="images/result-images/收盘价日线图与obv系列指标.png" width="50%" alt="收盘价日线图与obv系列指标"/>
-    <img src="images/result-images/择时量化指标可视化.png" width="50%" alt="择时量化指标可视化"/>
+    <img src="result-images/result-images/收盘价日线图与obv系列指标.png" width="50%" alt="收盘价日线图与obv系列指标"/>
+    <img src="result-images/result-images/择时量化指标可视化.png" width="50%" alt="择时量化指标可视化"/>
 </div>
 <div align="center">
-    <img src="images/result-images/长短期移动平均线.png" width="60%" alt="长短期移动平均线"/>
+    <img src="result-images/result-images/长短期移动平均线.png" width="60%" alt="长短期移动平均线"/>
 </div>
 
 ## 量化交易策略
@@ -176,3 +177,4 @@ pip install tushare pandas matplotlib openpyxl numpy
 
 ## 总结
 本深市股票量化交易系统依托Tushare Pro的丰富金融数据，实现了从数据获取到策略制定、经典技术指标的自动化计算与可视化分析，并设计了贴合市场的选股、择时策略，为量化投资提供了坚实的**数据支撑+策略参考+理论基础**。
+
