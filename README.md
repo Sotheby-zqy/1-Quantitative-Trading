@@ -38,8 +38,8 @@
 - 处理缺失值、异常值，保证数据完整性；
 - 标准化字段命名，提升代码可读性。
 <div align="center">
-  <img src="result-images/股票列表.png" width="40%" alt="股票列表"/>
-  <img src="result-images/股票日线数据.png" width="60%" alt="股票日线数据"/>
+  <img src="result-images/股票列表.png" width="30%" alt="股票列表"/>
+  <img src="result-images/股票日线数据.png" width="70%" alt="股票日线数据"/>
 </div>
 
 ### 2. 核心技术指标计算
@@ -79,11 +79,11 @@ $$Volatility_{20} = \sigma(r_t, window=20)$$
 
 <!-- 插入可视化图表合集，一行3图布局 -->
 <div align="center">
-    <img src="result-images/收盘价日线图与obv系列指标.png" width="50%" alt="收盘价日线图与obv系列指标"/>
-    <img src="result-images/择时量化指标可视化.png" width="50%" alt="择时量化指标可视化"/>
+    <img src="result-images/收盘价日线图与obv系列指标.png" width="100%" alt="收盘价日线图与obv系列指标"/>
+    <img src="result-images/择时量化指标可视化.png" width="100%" alt="择时量化指标可视化"/>
 </div>
 <div align="center">
-    <img src="result-images/长短期移动平均线.png" width="60%" alt="长短期移动平均线"/>
+    <img src="result-images/长短期移动平均线.png" width="80%" alt="长短期移动平均线"/>
 </div>
 
 ## 量化交易策略
